@@ -1,7 +1,5 @@
 const calcular = document.getElementById('calcular'); //puxa no html(document) o id
 
-
-
 function imc () {
     const nome = document.getElementById('nome').value; //necessário o value para pegar o tipo de dado para validação.
     const altura = document.getElementById('altura').value;
